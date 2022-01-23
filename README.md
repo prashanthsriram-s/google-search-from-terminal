@@ -1,5 +1,5 @@
 # google-search-from-terminal
-A script to directly launch a google-chrome new tab with a google search of the given string in arguments
+A script to directly launch a google-chrome new tab with a google search of the given string in arguments from command-line
 
 <b>Requirements</b>:
   1. Google chrome has to be installed already (the package google-chrome should be there)
