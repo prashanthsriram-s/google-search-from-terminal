@@ -7,11 +7,13 @@ A script to directly launch a google-chrome new tab with a google search of the 
  (This script merely launches google-chrome with the argument as https://google.com/search?q=YOUR_ARGUMENTS_HERE . So, without a google chrome, this cannot run)
  
 <b>Instructions to set-up</b>:
+
+ Clone this repo into any of your directory, go to that directory and execute the make file using the commands below:
   
 ```
-git clone https://github.com/prashanthsriram-s/google-search-from-terminal.git # Clone this repo into any of your directory
-cd google-seach-from-terminal # Go to the folder you have cloned
-make # Run the makefile using make command
+git clone https://github.com/prashanthsriram-s/google-search-from-terminal.git
+cd google-seach-from-terminal
+make
 ```
 <b>How to Use:</b>
 ```
@@ -21,6 +23,7 @@ google Hello World
 
 <b> Troubleshooting: </b>
 Incase you get a command not found error, it may be because /home/USERNAME/.local/bin may not be in your path file. So, follow this:https://askubuntu.com/a/799306 or https://askubuntu.com/a/60221 to add /home/USERNAME/.local/bin to your path file. Or, you can just copy the contents of the google scripts from the repo, paste it in a text editor, save it as a file. Using chmod, make it executable and place the script manually into one of your existing path directories. You can see this approach in the README.md in the other branch of this repo: https://github.com/prashanthsriram-s/google-search-from-terminal/blob/Backup/README.md
+
 <b> Some Notes: </b>
  1. Usage of "" in arguments is unnecessary since the script concatenates all the arguments into one string and then calls google-chrome with a search for the concatenated string.
  2. Many Desktop Environments provide Alt+F2 combination to bring up a mini terminal to launch apps. You can use it to make new google searches. Example:
