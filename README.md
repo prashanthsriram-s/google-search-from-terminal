@@ -23,7 +23,7 @@ google Hello World
    This launches a new tab in Google chrome for https://www.google.com/search?q=hello%20world .
 
 <b> Troubleshooting: </b>
-Incase you get a command not found error, it may be because /home/USERNAME/.local/bin may not be in your path file. So, follow this:https://askubuntu.com/a/799306 or https://askubuntu.com/a/60221 to add /home/USERNAME/.local/bin to your path file. Or, you can just copy the contents of the google scripts from the repo, paste it in a text editor, save it as a file. Using chmod, make it executable and place the script manually into one of your existing path repo. You can see this approach in the README.md in the other branch of this repo.
+Incase you get a command not found error, it may be because /home/USERNAME/.local/bin may not be in your path file. So, follow this:https://askubuntu.com/a/799306 or https://askubuntu.com/a/60221 to add /home/USERNAME/.local/bin to your path file. Or, you can just copy the contents of the google scripts from the repo, paste it in a text editor, save it as a file. Using chmod, make it executable and place the script manually into one of your existing path directories. You can see this approach in the README.md in the other branch of this repo.
 <b> Some Notes: </b>
  
    Usage of "" in arguments is unnecessary since the script concatenates all the arguments into one string and then calls google-chrome with a search for the concatenated string.
