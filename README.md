@@ -29,3 +29,11 @@ Incase you get a command not found error, it may be because /home/USERNAME/.loca
  2. Many Desktop Environments provide Alt+F2 combination to bring up a prompt to enter command to launch apps. You can use it to make new google searches. Example:
     1. Alt+F2 (or Alt+Fn+F2 if applicable)
     2. google Hello there
+
+<b>Uninstalling</b>:
+in either of the following ways:
+1. Run ```make uninstall``` from the directory to which you cloned, OR
+2. Remove the script from your path manually 
+  ```
+  rm ~/.local/bin/google # replace the path if you changed the path while installing
+  ```
