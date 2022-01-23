@@ -26,6 +26,6 @@ Incase you get a command not found error, it may be because /home/USERNAME/.loca
 
 <b> Some Notes: </b>
  1. Usage of "" in arguments is unnecessary since the script concatenates all the arguments into one string and then calls google-chrome with a search for the concatenated string.
- 2. Many Desktop Environments provide Alt+F2 combination to bring up a mini terminal to launch apps. You can use it to make new google searches. Example:
-    1. Alt+F2
+ 2. Many Desktop Environments provide Alt+F2 combination to bring up a prompt to enter command to launch apps. You can use it to make new google searches. Example:
+    1. Alt+F2 (or Alt+Fn+F2 if applicable)
     2. google Hello there
