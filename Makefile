@@ -1,4 +1,7 @@
-usdir := $(shell whoami)
+all : maker
 maker:
 	chmod 755 google
-	mv google /home/$(usdir)/.local/bin/
+	cp google ~/.local/bin/
+
+uninstall:
+	rm ~/.local/bin/google
