@@ -9,12 +9,9 @@ A script to directly launch a google-chrome new tab with a google search of the 
 <b>Instructions to set-up</b>:
   
 ```
-# Clone this repo into any of your directory:
-git clone https://github.com/prashanthsriram-s/google-search-from-terminal.git
-# Go to the folder you have cloned
-cd google-seach-from-terminal
-# Run the makefile using make command
-make
+git clone https://github.com/prashanthsriram-s/google-search-from-terminal.git # Clone this repo into any of your directory
+cd google-seach-from-terminal # Go to the folder you have cloned
+make # Run the makefile using make command
 ```
 <b>How to Use:</b>
 ```
