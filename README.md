@@ -4,7 +4,7 @@ A script to directly launch a google-chrome new tab with a google search of the 
 <b>Requirements</b>:
   1. Microsoft Edge has to be installed already (the package microsoft-edge should be there) (Check other branches for other browsers)
   2. Linux (Works only on Linux Terminal)
- (This script merely launches google-chrome with the argument as https://google.com/search?q=YOUR_ARGUMENTS_HERE . So, without a google chrome, this cannot run)
+ (This script merely launches microsoft-edge with the argument as https://google.com/search?q=YOUR_ARGUMENTS_HERE . So, without a google chrome, this cannot run)
  
 <b>Instructions to set-up</b>:
 
@@ -13,16 +13,15 @@ A script to directly launch a google-chrome new tab with a google search of the 
 ```
 git clone https://github.com/prashanthsriram-s/google-search-from-terminal.git
 cd google-seach-from-terminal
-make
+git checkout edge
+git pull
+sudo make
 ```
 <b>How to Use:</b>
 ```
 google Hello World
 ``` 
-   This launches a new tab in Google chrome for https://www.google.com/search?q=hello%20world .
-
-<b> Troubleshooting: </b>
-Incase you get a command not found error, it may be because /home/USERNAME/.local/bin may not be in your path file. So, follow this:https://askubuntu.com/a/799306 or https://askubuntu.com/a/60221 to add /home/USERNAME/.local/bin to your path file. Or, you can just copy the contents of the google scripts from the repo, paste it in a text editor, save it as a file. Using chmod, make it executable and place the script manually into one of your existing path directories. You can see this approach in the README.md in the other branch of this repo: https://github.com/prashanthsriram-s/google-search-from-terminal/blob/Backup/README.md
+   This launches a new tab in Microsoft Edge for https://www.google.com/search?q=hello%20world .
 
 <b> Some Notes: </b>
  1. Usage of "" in arguments is unnecessary since the script concatenates all the arguments into one string and then calls google-chrome with a search for the concatenated string.
@@ -35,5 +34,5 @@ in either of the following ways:
 1. Run ```make uninstall``` from the directory to which you cloned, OR
 2. Remove the script from your path manually 
   ```
-  rm ~/.local/bin/google # replace the path if you changed the path while installing
+  sudo rm ~bin/google # replace the path if you changed the path while installing
   ```
