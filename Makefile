@@ -4,4 +4,4 @@ maker:
 	cp google /bin/
 
 uninstall:
-	rm ~/.local/bin/google
+	rm /bin/google

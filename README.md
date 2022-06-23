@@ -31,7 +31,7 @@ google Hello World
 
 <b>Uninstalling</b>:
 in either of the following ways:
-1. Run ```make uninstall``` from the directory to which you cloned, OR
+1. Run ```sudo make uninstall``` from the directory to which you cloned, OR
 2. Remove the script from your path manually 
   ```
   sudo rm ~bin/google # replace the path if you changed the path while installing
