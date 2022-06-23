@@ -1,4 +1,5 @@
-# google-search-from-terminal
+# google-search-from-terminal (This branch is if you have google-chrome installed. For other browsers, check other branches)
+(For edge: https://github.com/prashanthsriram-s/google-search-from-terminal/tree/edge )
 A script to directly launch a google-chrome new tab with a google search of the given string in arguments from command-line
 
 <b>Requirements</b>:
