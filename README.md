@@ -1,8 +1,8 @@
-# google-search-from-terminal
+# google-search-from-terminal (If you have edge Installed)
 A script to directly launch a google-chrome new tab with a google search of the given string in arguments from command-line
 
 <b>Requirements</b>:
-  1. Google chrome has to be installed already (the package google-chrome should be there)
+  1. Microsoft Edge has to be installed already (the package microsoft-edge should be there) (Check other branches for other browsers)
   2. Linux (Works only on Linux Terminal)
  (This script merely launches google-chrome with the argument as https://google.com/search?q=YOUR_ARGUMENTS_HERE . So, without a google chrome, this cannot run)
  
